@@ -26,10 +26,11 @@
       placeholder="Por favor, escriba un número"
     ></ion-input>
 
-    <ion-button expand="block" (click)="sumar()">Sumar</ion-button>
-    <ion-button expand="block" (click)="restar()">Restar</ion-button>
-    <ion-button expand="block" (click)="multiplicar()">Multiplicar</ion-button>
-    <ion-button expand="block" (click)="dividir()">Dividir</ion-button>
+    <ion-button (click)="sumar()">Sumar</ion-button>
+    <ion-button (click)="restar()">Restar</ion-button>
+    <ion-button (click)="multiplicar()">Multiplicar</ion-button>
+    <ion-button (click)="dividir()">Dividir</ion-button>
+    <ion-button (click)="reiniciar()">Reiniciar</ion-button>
 
     <h5>{{txtMensaje}}</h5>
   </div>

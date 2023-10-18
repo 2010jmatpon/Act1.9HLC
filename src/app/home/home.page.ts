@@ -12,15 +12,9 @@ export class HomePage {
   resta: number = 0;
   producto: number = 0;
   division: number = 0;
-  txtMensaje: string = '';
-  esCorrecto: boolean = false;
+  txtMensaje: string = ' ';
 
-  constructor() {
-    this.sumar();
-    this.restar();
-    this.multiplicar();
-    this.dividir();
-  }
+  constructor() {}
 
   sumar() {
     this.suma = this.num1 + this.num2;
@@ -40,5 +34,11 @@ export class HomePage {
   dividir() {
     this.division = this.num1 / this.num2;
     this.txtMensaje = 'El resultado es: ' + this.division;
+  }
+
+  reiniciar() {
+    this.num1= 0;
+    this.num2= 0;
+    this.txtMensaje = ' ';
   }
 }
