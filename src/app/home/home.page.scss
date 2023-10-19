@@ -1,3 +1,4 @@
+
 #container {
   text-align: center;
 
@@ -24,4 +25,28 @@
 
 #container a {
   text-decoration: none;
+}
+
+// Pantalla Mediana
+@media screen and (max-width: 800px) and (min-width: 500px){
+  ion-content {
+    --background: rgba(24, 157, 180, 0.753);
+  }
+  
+}
+
+// Pantalla Pequeña
+@media screen and (max-width: 500px){
+  ion-content {
+    --background: rgba(201, 60, 189, 0.753);
+  }
+  
+}
+
+//Pantalla Grande
+@media screen and (min-width: 800px){
+  ion-content {
+    --background: rgba(145, 142, 10, 0.753);
+  }
+  
 }
