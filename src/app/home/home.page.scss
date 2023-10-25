@@ -50,3 +50,9 @@
   }
   
 }
+
+@media only screen and (orientation: portrait){
+  ion-toolbar{
+    --background:rgba(111, 0, 255, 0.753) ;
+  }
+}
